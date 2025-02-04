@@ -1,0 +1,32 @@
+<!-- /frontend/login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Login</h1>
+  </header>
+  <main>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p id="error-message" style="color: red; display: none;">Invalid credentials. Please try again.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Web App</p>
+  </footer>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

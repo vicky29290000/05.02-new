@@ -1,0 +1,34 @@
+<!-- /frontend/admin/files.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Files</title>
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+  <header>
+    <h1>Manage Files</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="users.html">Manage Users</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Upload a New File</h2>
+    <form id="uploadForm">
+      <input type="file" id="fileInput" required>
+      <button type="submit">Upload</button>
+    </form>
+    <div id="uploadStatus"></div>
+    <h2>Uploaded Files</h2>
+    <ul id="fileList"></ul>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Web App</p>
+  </footer>
+
+  <script src="../js/upload.js"></script>
+</body>
+</html>
