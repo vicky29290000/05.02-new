@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('E:/05.02/project-root/backend/node js/routes/admin routes.js');
 const router = express.Router();
 const adminController = require('../controllers/adminController');
 const authMiddleware = require('../middlewares/authMiddleware');

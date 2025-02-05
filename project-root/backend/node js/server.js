@@ -1,5 +1,5 @@
 // /backend/nodejs/server.js
-const express = require('express');
+const express = require('E:/05.02/project-root/backend/node js/server.js');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -15,7 +15,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Routes
-app.use('/api/auth', authRoutes);
+app.use('/api/E:/05.02/project-root/backend/node js/routes/auth routes.js', authRoutes);
 
 // Set up storage engine for file uploads
 const storage = multer.diskStorage({
